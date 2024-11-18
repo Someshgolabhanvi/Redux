@@ -1,0 +1,119 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Container Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Todo App Card Style */
+.todo-app {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Heading Style */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+h1 i {
+    margin-right: 10px;
+    color: #4CAF50; /* Green color for the pen icon */
+}
+
+/* Form and Input Styles */
+form {
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    gap: 10px; /* Add some space between the input and the button */
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%; /* Adjust the width of the input */
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Task List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+
+button.delete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.delete:hover {
+    background-color: #e53935;
+}
